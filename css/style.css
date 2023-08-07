@@ -1,0 +1,32 @@
+body {
+  background: #fffdff;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+}
+
+.item {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #ffff;
+}
+.item1 {
+  background: #e71e66;
+  grid-row: 1/3;
+}
+.item2 {
+  background: #fc9a13;
+  grid-column: 2/-1;
+}
+.item3 {
+  background: #aa3bbc;
+}
+.item4 {
+  background: #586c7b;
+}
